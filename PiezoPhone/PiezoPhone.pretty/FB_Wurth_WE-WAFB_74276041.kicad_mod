@@ -1,12 +1,12 @@
-(footprint "FB_Wurth_WE-WAFB_7427604" (version 20221018) (generator pcbnew)
+(footprint "FB_Wurth_WE-WAFB_74276041" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Sleeve Choke for EMI Solutions, body 6x3.5x3.5mm, https://www.we-online.com/en/components/products/datasheet/7427604?ki")
+  (descr "Sleeve Choke for EMI Solutions, body 6x3.5x3.5mm, https://www.we-online.com/en/components/products/datasheet/74276041?ki")
   (tags "THT")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -3.0 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "FB_Wurth_WE-WAFB_7427604" (at 0 3.0 unlocked) (layer "F.Fab") hide
+  (fp_text value "FB_Wurth_WE-WAFB_74276041" (at 0 3.0 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
@@ -20,7 +20,7 @@
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab"))
   (pad "1" thru_hole rect (at -5.45 0) (size 1.35 1.35) (drill 0.85) (layers "*.Cu" "*.Mask"))
   (pad "2" thru_hole circle (at 5.45 0) (size 1.35 1.35) (drill 0.85) (layers "*.Cu" "*.Mask"))
-  (model "${WE_3DMODEL_DIR}/Ferrite_THT_Wurth.3dshapes/FB_Wurth_WE-WAFB_7427604.wrl"
+  (model "${KIPRJMOD}/PiezoPhone.3dshapes/FB_Wurth_WE-WAFB_74276041.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
