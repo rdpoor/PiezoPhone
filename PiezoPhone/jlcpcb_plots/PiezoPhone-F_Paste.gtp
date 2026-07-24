@@ -1,0 +1,24 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.5*%
+%TF.CreationDate,2026-07-22T15:52:02-07:00*%
+%TF.ProjectId,PiezoPhone,5069657a-6f50-4686-9f6e-652e6b696361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.5) date 2026-07-22 15:52:02*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X61468000Y-32500000D02*
+X136144000Y-32500000D01*
+X136144000Y-132500000D01*
+X61468000Y-132500000D01*
+X61468000Y-32500000D01*
+M02*

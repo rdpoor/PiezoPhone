@@ -1,0 +1,18 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# KiCad auto-generated: backups, caches, lock files, autosave
+*-backups/
+*.lck
+~*.lck
+fp-info-cache
+*-bak/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+
+# macOS
+.DS_Store
+__MACOSX/
