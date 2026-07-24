@@ -1,0 +1,18 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"A1";"Arduino_Nano";1;"Arduino_Nano_v3.x";;;
+2;"C1, C2, C3, C4, C5, C6, C7, C16";"C_Disc_D4.7mm_W2.5mm_P5.00mm";8;"0.1 uf";;;
+3;"C9, C12, C13, C15";"CP_Radial_D5.0mm_P2.50mm";4;"10 uF";;;
+4;"C11, C14";"C_Disc_D4.7mm_W2.5mm_P5.00mm";2;"0.1 uF";;;
+5;"C17";"CP_Radial_D8.0mm_P3.50mm";1;"250 uF";;;
+6;"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14";"D_DO-41_SOD81_P10.16mm_Horizontal";14;"SB150-E3/73";;;
+7;"FB1, FB2";"R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal";2;"FerriteBead";;;
+8;"J1, J2, J3, J4, J5, J6, J7";"PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical";7;"Screw_Terminal_01x02";;;
+9;"J8";"SJ1-3525NG_CUD";1;"SJ1-3525NG";;;
+10;"J9";"JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal";1;"Conn_01x02_Socket";;;
+11;"R1, R2, R3, R4, R5, R6, R7";"R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal";7;"1k";;;
+12;"R8";"R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal";1;"1.2K";;;
+13;"R9";"R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal";1;"10";;;
+14;"RV1";"TRIM_3352T-1-103LF";1;"10K";;;
+15;"SW1";"DIP-8_W7.62mm_Socket";1;"SW_DIP_x04";;;
+16;"TP1, TP2, TP3, TP4";"TestPoint_Keystone_5005-5009_Compact";4;"TestPoint";;;
+17;"U1";"DIP-8_W7.62mm_Socket_LongPads";1;"LM386";;;
