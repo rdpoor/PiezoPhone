@@ -181,7 +181,7 @@ void setup() {
     audio_timer.open();
     audio_timer.start();
 
-    Serial.println("Xylophone ready.");
+    // Serial.println("Xylophone ready.");
 }
 
 // ── Foreground loop — peak detector ───────────────────────────────────────────
@@ -199,6 +199,8 @@ static SensorState sensors[NUM_VOICES];
 void loop() {
     for (int v = 0; v < NUM_VOICES; v++) {
         int val = analogRead(SENSOR_PINS[v]);
+        Serial.print(val);
+        Serial.print(",");
         SensorState& s = sensors[v];
 
         switch (s.phase) {
@@ -220,10 +222,10 @@ void loop() {
 
             case AT_MAX:
                 trigger_voice(v, (float)s.peak / 16383.0f);
-                Serial.print("trigger v");
-                Serial.print(v);
-                Serial.print("  peak=");
-                Serial.println(s.peak);
+                // Serial.print("trigger v");
+                // Serial.print(v);
+                // Serial.print("  peak=");
+                // Serial.println(s.peak);
                 s.holdoff_until = millis() + HOLDOFF_MS;
                 s.phase = HOLDOFF;
                 break;
@@ -242,4 +244,5 @@ void loop() {
                 break;
         }
     }
+    Serial.println();
 }
